@@ -3,7 +3,7 @@ package YoutubeVideos.Objects;
 import java.time.*; 
 // Flight.java
 // by Aryan Karani
-// Period 2
+// Period 2 
 // 03/22/2022
 
 // Program for the Objects video

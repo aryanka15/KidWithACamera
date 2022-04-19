@@ -50,11 +50,13 @@ public class Airport {
         return totalFlightCapacity;
     }
 
+    
+
+    // MODIFIER METHODS
+
     public void addFlight(Flight flight) {
         flights.add(flight);
     }
-
-    // MODIFIER METHODS
 
     public void delayFlight(Flight flight, int days, int hours) { // delay the flight
         flight.delayFlight(days, hours); // delays the flight using Flight method

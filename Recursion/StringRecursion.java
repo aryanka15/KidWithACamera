@@ -12,9 +12,9 @@ public class StringRecursion {
             return;
         }
 
-        System.out.print(str.charAt(str.length() - 1));
-        reverseString(str.substring(0, str.length() - 1));
-        System.out.print(str.charAt(str.length() - 1));
+        System.out.print(str.charAt(str.length() - 1)); // print out last character of string
+        reverseString(str.substring(0, str.length() - 1)); // recursive call
+        System.out.print(str.charAt(str.length() - 1)); // print out last character of string
     } 
 
 

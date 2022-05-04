@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "Scanners",
         "Recursion",
-        "Scanners"
+        "Review Before Test"
     ]
 }

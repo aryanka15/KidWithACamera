@@ -15,6 +15,13 @@ public class TerminalInput {
             scan.next(); 
             System.out.println("Invalid input");
         }
+
+        for (int i = 0; i < 10; i++) {
+            if (scan.hasNextInt()) {
+                System.out.println(scan.next());
+            }
+        }
+
         scan.close(); // close the scanner 
     }
 }

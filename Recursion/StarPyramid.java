@@ -45,7 +45,9 @@
 public class StarPyramid {
     
     public static void main(String[] args) {
-        printPyramid(6);
+        System.out.println();
+        System.out.println();
+        printPyramid(10);
         System.out.println();
         printUpsideDownPyramid(6);
     }

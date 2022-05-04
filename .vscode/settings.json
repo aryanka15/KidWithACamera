@@ -2,6 +2,7 @@
     "java.project.sourcePaths": [
         "Scanners",
         "Recursion",
-        "Review Before Test"
+        "Review Before Test",
+        "Arrays"
     ]
 }
